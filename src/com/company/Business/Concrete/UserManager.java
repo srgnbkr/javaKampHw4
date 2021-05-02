@@ -1,5 +1,7 @@
-package com.company.Business;
+package com.company.Business.Concrete;
 
+import com.company.Business.Abstract.UserService;
+import com.company.Business.Abstract.UserValidationService;
 import com.company.Entities.User;
 
 public class UserManager implements UserService {

@@ -1,8 +1,9 @@
-package com.company.Business;
+package com.company.Business.Concrete;
 
+import com.company.Business.Abstract.CampaignService;
 import com.company.Entities.Campaign;
 
-public class CampaignManager implements CampaignService{
+public class CampaignManager implements CampaignService {
     @Override
     public void add(Campaign campaign) {
         System.out.println("Kampanya Eklendi Id:"+campaign.getId()+"Kampanya Adı"+campaign.getName()+" İndirim Yüzdesi: %"+campaign.getDiscount());

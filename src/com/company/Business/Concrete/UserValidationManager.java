@@ -1,5 +1,6 @@
-package com.company.Business;
+package com.company.Business.Concrete;
 
+import com.company.Business.Abstract.UserValidationService;
 import com.company.Entities.User;
 
 public class UserValidationManager implements UserValidationService {

@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Business.*;
+import com.company.Business.Concrete.*;
 import com.company.Entities.Campaign;
 import com.company.Entities.Game;
 import com.company.Entities.User;
@@ -43,11 +43,11 @@ public class Main {
                 23
         ));
 
-        SaleManager saleManager = new SaleManager();
+        SaleManager saleManager = new SaleManager(new UserValidationManager());
         saleManager.sell(new User(
                 1,
-                "1234556",
-                1994,
+                "36925814755",
+                1996,
                 "Sergencu",
                 "Cu",
                 "cuseg09@gmail.com"

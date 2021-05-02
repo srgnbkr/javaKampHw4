@@ -1,8 +1,9 @@
-package com.company.Business;
+package com.company.Business.Concrete;
 
+import com.company.Business.Abstract.GameService;
 import com.company.Entities.Game;
 
-public class GameManager implements GameService{
+public class GameManager implements GameService {
     @Override
     public void add(Game game) {
         System.out.println("" +

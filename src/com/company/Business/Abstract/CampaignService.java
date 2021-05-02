@@ -1,4 +1,4 @@
-package com.company.Business;
+package com.company.Business.Abstract;
 
 import com.company.Entities.Campaign;
 
