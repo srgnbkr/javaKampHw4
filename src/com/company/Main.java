@@ -12,8 +12,8 @@ public class Main {
         UserManager userManager = new UserManager(new UserValidationManager());
         userManager.add(new User(
                 1,
-                123,
-                2006,
+                "12345678923",
+                1996,
                 "Sergen",
                 "Bakır",
                 "cuseg09@gmail.com"
@@ -21,7 +21,7 @@ public class Main {
         ));
         userManager.update(new User(
                 2,
-                5345566,
+                "12345678911",
                 1988,
                 "Engin",
                 "Demiroğ",
@@ -46,7 +46,7 @@ public class Main {
         SaleManager saleManager = new SaleManager();
         saleManager.sell(new User(
                 1,
-                1234556,
+                "1234556",
                 1994,
                 "Sergencu",
                 "Cu",

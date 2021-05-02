@@ -2,13 +2,13 @@ package com.company.Entities;
 
 public class User {
     private int id;
-    private int identityNumber;
+    private String identityNumber;
     private int birthYear;
     private String firstName;
     private String lastName;
     private String email;
 
-    public User(int id, int identityNumber, int birthYear, String firstName, String lastName, String email) {
+    public User(int id, String identityNumber, int birthYear, String firstName, String lastName, String email) {
         this.id = id;
         this.identityNumber = identityNumber;
         this.birthYear = birthYear;
@@ -25,11 +25,11 @@ public class User {
         this.id = id;
     }
 
-    public int getIdentityNumber() {
+    public String getIdentityNumber() {
         return identityNumber;
     }
 
-    public void setIdentityNumber(int identityNumber) {
+    public void setIdentityNumber(String identityNumber) {
         this.identityNumber = identityNumber;
     }
 
